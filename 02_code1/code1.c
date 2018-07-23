@@ -1,7 +1,16 @@
 int max (int num1, int num2) {
+  int max;
   //check if num1 is greater than num2
-    //if so, your answer is num1
+  if( num1 > num2){
+      max = num1;
+    }
+  else{
+      max = num2;
+    }
+  //if so, your answer is num1
     //otherwise, your answer is num2
+  return max;
+  
 }
 
 int main(void) {
