@@ -15,6 +15,8 @@ int printTriangle(int size) {
     }
      //print a newline ("\n")
     printf("\n");
+
+  }
   //when you finish counting on i, 
 
   //your answer is starCount
@@ -33,7 +35,7 @@ int main(void) {
   numStars = printTriangle(7);
   //finally, print "That triangle had %d total stars\n", such that the %d 
   //prints the value of numStars
-  printf("That triangle had %d total stars\n", numStars)
+  printf("That triangle had %d total stars\n", numStars);
 
   return 0;
 }
